@@ -12,6 +12,7 @@ public class ArrayListTest {
 		alTest.add(new Test("Ram"));
 		alTest.add(new Test("Sam"));
 		alTest.add(new Test("Kam"));
+		alTest.add(new Test("Hari"));
 		System.out.println(alTest);
 
 		//method : 1
