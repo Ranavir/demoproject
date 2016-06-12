@@ -57,7 +57,15 @@ class ObserverObject implements Observer{
 	@Override
 	public void update(Observable obj, Object arg) {
 		System.out.println("ObserverObject notified about the change with Value : "+arg);
-		
 	}//end of overridden update method
 	
 }//end of class ObserverObject
+
+/*
+	output:-
+	
+	ObservableObject created with Value : software
+	ObservableObject Value is changing to : hardware
+	ObservableObject Value is changing to : communication
+	ObserverObject notified about the change with Value : communication
+*/
